@@ -22,61 +22,61 @@
 </script>
 <style scoped>
 .head-image{
-  height: 285px;
+  height: 570px;
   background-image: url('../assets/homePage/KV.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .introduce{
   position: relative;
-  height: 350px;
+  height: 700px;
   background-image: url('../assets/homePage/bg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .introduce-title{
-  width: 134px;
-  height: 30px;
+  width: 268px;
+  height: 60px;
   margin: 0 auto;
   position: relative;
-  top: 24px;
+  top: 48px;
   background-image: url('../assets/homePage/title.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .introduce-time{
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: center;
-  font-size: 16px;
+  font-size: 32px;
 }
 .tile-time{
   color: #333333;
   font-weight: 800;
 }
 .content{
-  margin: 0 30px 0 30px;
-  font-size: 12px;
+  margin: 0 60px 0 60px;
+  font-size: 24px;
   color: #333333;
-  line-height: 23px;
+  line-height: 46px;
 }
 .buttons{
-  height: 132px;
+  height: 264px;
   background-image: url('../assets/homePage/button.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .button-left{
-  width: 167px;
-  height: 72px;
+  width: 334px;
+  height: 144px;
   position: absolute;
-  bottom: 16px;
-  left: 15px;
+  bottom: 32px;
+  left: 30px;
 }
 .button-right{
-  width: 167px;
-  height: 72px;
+  width: 334px;
+  height: 144px;
   position: absolute;
-  bottom: 16px;
-  right: 15px;
+  bottom: 32px;
+  right: 30px;
 }
 </style>

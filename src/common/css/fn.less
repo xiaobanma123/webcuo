@@ -1,0 +1,25 @@
+.borderTop1pxHeight(@color: #7c7979){
+  position: relative;
+  &:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    .height1px(@color)
+  }
+}
+.borderBottom1pxHeight(@color: #7c7979){
+  position: relative;
+  &:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    .height1px(@color)
+  }
+}
+.height1px(@color){
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: @color;
+  transform: scaleY(0.5)
+}

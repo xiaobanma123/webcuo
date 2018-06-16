@@ -15,7 +15,8 @@ export default {
   props: {
     selected: {
       default: 1
-    },
+  
+  },
     list: {
       type: Array,
       require: true
@@ -23,6 +24,7 @@ export default {
   },
   methods: {
     clickItem (index) {
+      alert(index)
       this.$emit('input', id)
     }
   }
@@ -31,18 +33,19 @@ export default {
 <style scoped>
 .navbar{
   width: 100%;
-  height: 44px;
+  height: 88px;
   display: flex;
   flex-direction: row;
 }
 .navbar-item{
   flex: 1;
   color: #fefefe;
-  line-height: 44px;
+  line-height: 88px;
+  font-size: 28px;
 }
 .selected{
   color: #e69800;
-  border-bottom: 3px solid #e69800;
+  border-bottom: 6px solid #e69800;
 }
 </style>
 

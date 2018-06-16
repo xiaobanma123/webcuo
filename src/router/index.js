@@ -10,6 +10,7 @@ import HelloWorld from '@/goldCuo/HelloWorld'
 import ActivityToKnow from '@/goldCuo/ActivityToKnow'
 // pubG
 import PubGIndex from '@/pubG/index'
+import selectSubject from '@/pubG/selectSubject'
 
 Vue.use(Router)
 
@@ -60,6 +61,11 @@ export default new Router({
             path: '/pubg/index',
             name: 'pubGIndex',
             component: PubGIndex
+        },
+        {
+            path: '/pubg/selectSubject',
+            name: 'selectSubject',
+            component: selectSubject
         }
     ],
     scrollBehavior (to, from, savedPosition) {

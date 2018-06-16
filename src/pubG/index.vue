@@ -10,7 +10,7 @@
         <home-page></home-page>
       </mt-tab-container-item>
       <mt-tab-container-item id="2">
-        <mt-cell v-for="n in 4" :title="'测试 ' + n" :key="n" />
+        <rules></rules>
       </mt-tab-container-item>
       <mt-tab-container-item id="3">
         <production></production>
@@ -27,13 +27,15 @@ import HeadLogo from './components/headLogo'
 import Navbar from './components/navbar'
 import HomePage from './components/homePage'
 import Production from './components/production'
+import Rules from './components/rules'
 export default {
   name: 'page-navbar',
   components:{
     HeadLogo,
     Navbar,
     HomePage,
-    Production
+    Production,
+    Rules
   },
   data() {
     return {

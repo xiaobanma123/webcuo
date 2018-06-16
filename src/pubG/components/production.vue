@@ -174,17 +174,17 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style lang="less" scoped>
 .container{
   background-color: #f4f4f4;
   border: 1px solid #f4f4f4;
   min-height: 100vh;
   color: #333333;
-  font-size: 12px;
+  font-size: 24px;
   width: 100%;
 }
 .container .join{
-  height: 80px;
+  height: 160px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -196,40 +196,40 @@ export default {
     align-items: center;
 }
 .join .person{
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-radius: 90%;
   background-image: url('../assets/production/person.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 .join .content{
-  margin-left: 15px;
+  margin-left: 30px;
 }
 .join .name{
   color: #333333;
-  font-size: 14px;
+  font-size: 28px;
 }
 .vote-desc{
-  margin-top: 10px;
+  margin-top: 20px;
   color: #666666;
-  font-size: 12px;
+  font-size: 24px;
 }
 .vote-desc .number{
   color: #e69800;
 }
 .join-button{
-  width: 100px;
-  height: 40px;
-  margin-right: 15px;
+  width: 200px;
+  height: 80px;
+  margin-right: 30px;
   background-image: url('../assets/production/button01.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .finish{
-  margin-top: 10px;
-  height: 60px;
+  margin-top: 20px;
+  height: 120px;
   background-image: url('../assets/production/button02.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -238,12 +238,12 @@ export default {
   justify-content: flex-end;
 }
 .button-finish{
-  width: 100px;
-  height: 35px;
-  margin-right: 15px;
+  width: 200px;
+  height: 70px;
+  margin-right: 30px;
 }
 .header{
-  height: 59px;
+  height: 118px;
   background-color: #ffffff;
   border-top: 1px solid #ffffff;
   border-bottom: 0.5px solid #e0dede;
@@ -254,113 +254,113 @@ export default {
 .header .left-title{
   font-family: MicrosoftYaHei-Bold;
   color: #e69800;
-  font-size: 16px;
+  font-size: 32px;
   font-style: italic;
-  margin: 26px 0 0 17px;
+  margin: 52px 0 0 34px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-weight: 800;
 }
 .header .right-content{
-  margin: 30px 15px 0 0;
+  margin: 60px 30px 0 0;
 }
 .recommend .header .icon{
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 28px;
+  height: 28px;
   background-image: url('../assets/production/icon-shuaxin.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   vertical-align: bottom;
-  margin-left: 3px;
+  margin-left: 6px;
 }
 
 .recommend-content{
   border: 1px solid #ffffff;
   background-color: #ffffff;
-  height: 300px;
+  height: 600px;
 }
 .production-item{
-  width: 172.5px;
-  height: 280px;
-  margin: 10px 0 0 10px;
+  width: 345px;
+  height: 560px;
+  margin: 20px 0 0 20px;
   float: left;
 }
 .production-item .image{
-  width: 173px;
-  height: 183px;
+  width: 346px;
+  height: 366px;
   background-image: url('../assets/production/production.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .production-item .item-content{
   width: 100%;
-  height: 96px;
+  height: 192px;
   background-color: #f8f8f8;
   border-top: 1px solid #f8f8f8;
 }
 .item-content .title{
-  font-size: 16px;
+  font-size: 32px;
   font-weight: 900;
-  margin: 7px 0 0 15px;
+  margin: 14px 0 0 30px;
   text-align: left;
 }
 .item-content .persons{
   display: flex;
   flex-direction: row;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 .item-content .person1 .person1-left{
   display: inline-block;
-  width: 5px;
-  height: 13px;
+  width: 10px;
+  height: 26px;
   background-color: #e69800;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 .item-content .person2 .person2-left{
   display: inline-block;
-  width: 5px;
-  height: 13px;
+  width: 10px;
+  height: 26px;
   background-color: #8ca223;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 .item-content .bottom{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 13px;
+  margin-top: 26px;
 }
 .item-content .bottom .label{
-  width: 40px;
-  height: 19px;
+  width: 80px;
+  height: 38px;
   background-color: #333333;
-  border-radius: 4px;
+  border-radius: 8px;
   color: #ffffff;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 .item-content .bottom .number{
-  font-size: 13px;
+  font-size: 26px;
   color: #afafaf;
-  margin-right: 12px;
+  margin-right: 24px;
 }
 .ranking{
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .ranking-content{
   border: 1px solid #ffffff;
   background-color: #ffffff;
-  height: 590px;
+  height: 1180px;
 }
 .ranking .header .icon{
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 28px;
+  height: 28px;
   background-image: url('../assets/production/icon_more.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   vertical-align: bottom;
-  margin-left: 3px;
+  margin-left: 6px;
 }
 </style>
 
